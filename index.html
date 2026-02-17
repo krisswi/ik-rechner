@@ -23,7 +23,7 @@
 </head>
 <body>
 <div class="container">
-  <h2 style="margin:0 0 6px;">Kurzschlussstrom-Beurteilung</h2>
+  <h2 style="margin:0 0 6px;">Kurzschlussstrom Beurteilung</h2>
   <div class="muted">
     Kupfer fix: ρ = 0.0178 Ω·mm²/m. Leitungsschleife nach Vorgabe:
     1-polig (1L) → 2·L, 3-polig (3) → √3·L.
@@ -31,7 +31,7 @@
 
   <div class="grid">
     <div>
-      <label for="u0">Spannung U0 (V)</label>
+      <label for="u0">Spannung U (V)</label>
       <input type="number" id="u0" value="230" min="0" step="1" />
 
       <label for="ik_start">Ik am Anfang (A)</label>
@@ -60,7 +60,7 @@
         <option value="DIAZED">DIAZED</option>
         <option value="DIN">DIN gG/gL</option>
         <option value="LSB">LS B</option>
-        <option value="LSC">LS C</option>
+        <option value="LSC" selected>LS C</option>
         <option value="LSD">LS D</option>
       </select>
 
